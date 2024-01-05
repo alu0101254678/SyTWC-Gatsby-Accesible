@@ -4,7 +4,10 @@
 module.exports = {
   pathPrefix: `/SyTWC-Gatsby`,
   siteMetadata: {
-    siteUrl: `https://alu0101254678.github.io/SyTWC-Gatsby`,
+    siteUrl: `https://www.yourdomain.tld`,
+  },
+  siteMetadata: {
+    siteUrl: `https://github.com/alu0101254678/SyTWC-Gatsby-Accesible`,
   },
   plugins: [
     `gatsby-plugin-image`,
