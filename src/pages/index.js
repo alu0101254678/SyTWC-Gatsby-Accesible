@@ -2,6 +2,7 @@
 import React from "react"
 import Building from "../components/building"
 import ComponentName from "../components/graphqlquery"
+// const test = 'I am unused';
 
 export default function Home() {
   // Obtenemos los datos de los edificios utilizando la función ComponentName

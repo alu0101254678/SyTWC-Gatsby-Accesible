@@ -4,9 +4,6 @@
 module.exports = {
   pathPrefix: `/SyTWC-Gatsby`,
   siteMetadata: {
-    siteUrl: `https://www.yourdomain.tld`,
-  },
-  siteMetadata: {
     siteUrl: `https://github.com/alu0101254678/SyTWC-Gatsby-Accesible`,
   },
   plugins: [
@@ -28,6 +25,14 @@ module.exports = {
         path: `${__dirname}/src/data/`,
       },
     },
-    
+    {
+      resolve: 'gatsby-plugin-eslint',
+      options: {
+        stages: ['develop'],
+        emitWarning: true,
+        failOnError: false,
+        
+      },
+    }
   ],
 }
